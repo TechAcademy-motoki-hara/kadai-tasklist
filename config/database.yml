@@ -3,7 +3,7 @@
 # Install the MySQL driver
 #   gem install mysql2
 #
-# Ensure the MySQL gem is defined in your Gemfile
+# Ensure the  MySQL gem is defined in your Gemfile
 #   gem 'mysql2'
 #
 # And be sure to use new-style password hashing:
