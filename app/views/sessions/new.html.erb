@@ -14,10 +14,13 @@
       
       <div class="form_group">
         <%= f.label :password, 'Password' %>
-        <%= f.text_field :password, class: 'form-control' %>
+        <%= f.password_field :password, class: 'form-control' %>
       </div>
-    
-      <%= f.submit 'Log in', class: 'btn btn-primary btn-block' %>
+      
+      <div class="form_group">
+        <%= f.submit 'Log in', class: 'btn btn-primary btn-block' %>
+      </div>
+      
     <% end %>
     <p>New user?<%= link_to 'Sinup Now!', signup_path %></p>
   </div>
